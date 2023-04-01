@@ -12,6 +12,7 @@ const Footer = () => {
       .then((data) => {
         console.debug(`getUniversityInfo:`, data);
         setContacts(data.contacts);
+        console.log(data.contacts)
       });
   }, []);
   return (

@@ -12,7 +12,7 @@ const LandingBlock = () => (
 
                     Перший спеціалізований 
                     IT-університет</li>
-                <li id="list_botton"><a href=""></a>   Дізнатися більше   </li>
+                <li id="list_botton"><a href="/itservices"> Дізнатися більше</a>     </li>
             </ul>
         </div>
 

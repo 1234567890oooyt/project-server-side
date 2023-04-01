@@ -8,4 +8,10 @@ router.get('/university-info', async (req, res) => {
  return res.status(200).send(doc);
 });
 
+
+router.get('/it-servises', async (req, res) => {
+    const doc = await UniversityInfoModel.findOne();
+    return res.status(200).send(doc);
+   });
+
 module.exports = { router };

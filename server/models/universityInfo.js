@@ -12,9 +12,14 @@ const schema = new Schema({
   phoneNumbers: { type: [String] },
   city: { type: String },
   address: { type: String }
- }
+ },
+ servises: {
+    name: { type: String },
+    text: { type: [String] },
+   }
 });
 
 const UniversityInfoModel = new model('universityInfo', schema, 'universityInfo');
+
 
 module.exports = { UniversityInfoModel };
