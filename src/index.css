@@ -46,8 +46,36 @@ code {
   font-size: larger;
 }
 
+.header_servises {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  background-color: #3d3c92;
+  height: 5rem;
+  list-style: none;
+  /* width: 100%; */
+}
+
+.servises_logo {
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 
 
+}
+
+#under_line {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 55px;
+  border-top: 3px solid #ffffff;
+
+  padding-left: 10px
+}
 
 
 #logo {
@@ -428,6 +456,19 @@ footer ul {
   margin-right: auto;
   list-style: none;
 }
+#chess_debug{
+ background-color: #5c5adb;
+}
+#chess_debug_div{
+  background-color:  #5c5adb;
+}
+#chess_debug_head{
+  color: #ffffff;
+  background-color: #5c5adb;
+}
+#chess_debug_button{
+  background-color: #000000;
+}
 
 #description {
 
@@ -620,6 +661,21 @@ svg {
   margin: 3rem;
 
 }
+.servises_block{
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* background-color: #6a0f0f; */
+  width: auto;
+  height: 50rem;
+  margin: 3rem;
+
+}
+.servises_block div {
+  background-color: #e8e6e6;
+
+  height: 20rem;
+}
 
 .landing_bloc_2 div {
   background-color: #1d1d36;
@@ -658,6 +714,23 @@ svg {
   margin: 3%;
   font-weight: 500;
 }
+.servises_block_text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;  
+  font-weight: 500;
+  color: #000000;
+  list-style: none;
+}
+.servises_block_head {
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
 
 #landing_bloc_2_button {
   display: flex;
@@ -670,6 +743,29 @@ svg {
   background-color: #5c5adb;
   padding: 0.3rem;
 
+}
+#servises_block_button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: auto;
+  background-color: #5c5adb;
+  padding: 0.3rem;
+
+}
+#servises_block_button_debug{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: auto;
+  background-color: #000000;
+  padding: 0.3rem;
 }
 
 .news_container {
@@ -715,7 +811,7 @@ svg {
   height: 7rem;
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
 #description_text {
@@ -762,33 +858,38 @@ svg {
 .element-right {
   margin-left: auto;
 }
-.image_1_import{
-  background-image: url(./image/1.webp),url(./image/grey_color.png);
+
+.image_1_import {
+  background-image: url(./image/1.webp), url(./image/grey_color.png);
   background-size: cover;
-  background-blend-mode:difference;
+  background-blend-mode: difference;
   background-repeat: no-repeat, repeat;
 }
-.image_2_import{
-  background-image: url(./image/2.webp),url(./image/grey_color.png);
+
+.image_2_import {
+  background-image: url(./image/2.webp), url(./image/grey_color.png);
   background-size: cover;
-  background-blend-mode:difference;
+  background-blend-mode: difference;
   background-repeat: no-repeat, repeat;
 }
-.image_3_import{
-  background-image: url(./image/3.webp),url(./image/grey_color.png);
+
+.image_3_import {
+  background-image: url(./image/3.webp), url(./image/grey_color.png);
   background-size: cover;
-  background-blend-mode:difference;
+  background-blend-mode: difference;
   background-repeat: no-repeat, repeat;
 }
-#all_news_button{
-margin: auto;
-text-align: center;
-width: 9rem;
-color: white;
-background-color: #000000;
-padding:0.3rem;
+
+#all_news_button {
+  margin: auto;
+  text-align: center;
+  width: 9rem;
+  color: white;
+  background-color: #000000;
+  padding: 0.3rem;
 }
-.galary_grid_container{
+
+.galary_grid_container {
 
   margin-top: 1rem;
   height: 35rem;
@@ -796,30 +897,33 @@ padding:0.3rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
+
 }
-#galary_grid_head{
- margin-top:35rem;
+
+#galary_grid_head {
+  margin-top: 35rem;
 
   color: white;
   font-size: 3rem;
   text-align: center;
 }
-#galary_grid_description{
-  margin-bottom: 1rem; 
+
+#galary_grid_description {
+  margin-bottom: 1rem;
   color: white;
   font-size: 2rem;
   text-align: center;
 }
-#galary_grid{
-margin: auto;
+
+#galary_grid {
+  margin: auto;
 
   color: white;
   display: grid;
   grid-template-columns: 19rem 19rem 19rem 19rem;
 }
 
-.galary_grid_element{
+.galary_grid_element {
   background-color: #484e53;
   width: 18rem;
   height: 18rem;
@@ -827,35 +931,41 @@ margin: auto;
   margin-left: auto;
   margin-right: auto;
 }
-.email_container{
+
+.email_container {
   margin-top: 40rem;
 
   display: flex;
   flex-direction: column;
 }
-#email_head  {
+
+#email_head {
   margin: auto;
   font-size: 2.5rem;
   font-weight: 400;
 }
-#email_description{
+
+#email_description {
   margin: auto;
   font-size: 1.2rem;
   font-weight: 400;
   font-weight: 600;
 
 }
-#mark{
+
+#mark {
   margin: auto;
   margin-left: 31%;
   font-size: small;
 }
-#input_long_container{
+
+#input_long_container {
   margin-left: 31%;
   display: flex;
 
 }
-#email_input{
+
+#email_input {
   width: 30rem;
   margin-top: 0.3rem;
   background-color: #5c5adb;
@@ -863,12 +973,13 @@ margin: auto;
   border: 0px;
 
 }
-#email_apply{
- text-align: center;
- font-size: 0.9rem;
-color: white;
-padding: 0.3rem;
-width: 8rem;
+
+#email_apply {
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+  padding: 0.3rem;
+  width: 8rem;
   margin-top: 0.3rem;
   background-color: rgb(2, 5, 19);
   height: 1.3rem;

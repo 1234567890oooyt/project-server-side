@@ -12,6 +12,13 @@ class BackEndAPI {
   );
   return data;
  }
+ 
+ async getservises () {
+    const { data } = await axios.get(
+     `${this.baseUrl}/university-info`
+    );
+    return data;
+   }
 }
 
 export const backEndAPI = new BackEndAPI();
