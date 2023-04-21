@@ -9,7 +9,7 @@ function Header() {
             <li><img id="logo" src={logo} alt="IT Step University" /></li>
             <li><input id="header_input" type="text" placeholder="Пошук..." /></li>
         </ul>
-        <div id="sub_header"><ul>
+        <div id="sub_header" ><ul>
             <li>Головна</li>
             <li>Університет</li>
             <li>Бакалаврат</li>

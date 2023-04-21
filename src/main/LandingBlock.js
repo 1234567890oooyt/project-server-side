@@ -1,5 +1,5 @@
 import React from "react";
-import landing_building from "../landing_building.webp"
+import landing_building from "../landing_building.webp";
 const LandingBlock = () => (
 
     <div className="landing_block">
@@ -8,11 +8,8 @@ const LandingBlock = () => (
         <div className="container debug">
             <ul >
                 <li id="list_header">IT STEP University</li>
-                <li id="list_text">
-
-                    Перший спеціалізований 
-                    IT-університет</li>
-                <li id="list_botton"><a href="/itservices"> Дізнатися більше</a>     </li>
+                <li id="list_text"> Перший спеціалізований  IT-університет</li>
+                <li id="list_botton"><a href="/it-services"> Дізнатися більше</a>     </li>
             </ul>
         </div>
 

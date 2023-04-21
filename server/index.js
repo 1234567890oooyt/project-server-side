@@ -24,7 +24,7 @@ const setup = async () => {
  });
 
  app.listen(process.env.PORT, () => {
-  console.log(`server started port: ${process.env.PORT} baseUrl: ${process.env.BASE_URL}`);
+  console.log(`server started port: ${process.env.PORT}`);
  });
 };
 

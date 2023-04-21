@@ -11,13 +11,16 @@ import LandingBlock_2 from "../main/LandingBlock_2";
 import News from "../main/News";
 import GalaryGrid from "../main/GalaryGrid";
 import CallBackEmail from "../main/CallBackEmail";
-
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     
     <div className="main">
-       <Header />
+      <Helmet>
+        <title>Home</title>
+        <meta name="description" content="My page description" />
+      </Helmet>
        <LandingBlock />
        <LandingBlock_2 />
        <News/>

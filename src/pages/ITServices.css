@@ -1,0 +1,33 @@
+.row-flex {
+  display: flex;
+  width: 100%;
+  min-height: 300px;
+}
+
+.row-flex .image {
+  background-size: cover;
+  background-position: center;
+}
+
+.row-flex > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row-flex .title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.row-flex .main-points {
+  margin: 15px;
+}
+
+.row-flex .main-points > div {
+  margin: 5px 0;
+}
+
+.row-flex .show-more {
+  padding: 10px 25px;
+}
