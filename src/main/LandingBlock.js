@@ -1,5 +1,6 @@
 import React from "react";
 import landing_building from "../landing_building.webp";
+import { Link } from "react-router-dom";
 const LandingBlock = () => (
 
     <div className="landing_block">
@@ -9,7 +10,7 @@ const LandingBlock = () => (
             <ul >
                 <li id="list_header">IT STEP University</li>
                 <li id="list_text"> Перший спеціалізований  IT-університет</li>
-                <li id="list_botton"><a href="/it-services"> Дізнатися більше</a>     </li>
+                <li id="list_botton"><Link to="/it-services"> Дізнатися більше</Link>     </li>
             </ul>
         </div>
 

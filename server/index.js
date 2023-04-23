@@ -23,8 +23,9 @@ const setup = async () => {
   res.sendFile(path.join(__dirname, '../build/index.html'));
  });
 
- app.listen(process.env.PORT, () => {
-  console.log(`server started port: ${process.env.PORT}`);
+ const port = process.env.SERVER_PORT || process.env.PORT;
+ app.listen(port, () => {
+  console.log(`server started port: ${port}`);
  });
 };
 

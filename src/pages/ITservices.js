@@ -5,10 +5,11 @@ import { backEndAPI } from "../services/backend";
 import './ITServices.css';
 import Footer from "../main/Footer";
 import { Helmet } from "react-helmet";
+import { Link } from 'react-router-dom';
 
 
 
-function ItServicesComponent(props) {
+function ItServicesComponent (props) {
     const { service, direction = 'left' } = props;
     return (
         <div className="row-flex" style={{
@@ -24,12 +25,12 @@ function ItServicesComponent(props) {
                 <div className="show-more" style={{
                     backgroundColor: direction === 'right' ? '#5c5adb' : '#040321',
                     color: '#ffffff'
-                }}><a href="/it-services-info">Дізнатися більшe</a></div>
+                }}><Link to={`/it-services/articles/${service.articleId}`}>Дізнатися більшe</Link></div>
             </div>
         </div>);
 
 }
-function ITservices() {
+function ITservices () {
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {

@@ -19,6 +19,16 @@ class BackEndAPI {
       );
       return data;
    }
+
+   async getArticle (articleId) {
+      /**
+       *  @type {{data: { title: string, blocks: [{ type: 'text', value?: string}]}}}
+       */
+      const { data } = await axios.get(
+         `${this.baseUrl}/articles/${articleId}`
+      );
+      return data;
+   }
 }
 
 export const backEndAPI = new BackEndAPI();
