@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { backEndAPI } from "../../services/backend";
 import Loader from "../components/loader";
 import Text from "./text";
-
+import Footer from "../../main/Footer";
 
 function Article (props) {
  const { articleId } = useParams();
@@ -28,13 +28,16 @@ function Article (props) {
   return (<Loader />);
  }
  return (
-  <div>
-   <h4>{title}</h4>
+  <div >
+   <h4 className="aticle-title">{title}</h4>
+   <div id="under_line"></div>
+   <div className="square">
    {
     blocks.map(block => {
      switch (block.type) {
       case 'text': {
        return <Text value={block.value} />;
+       
       }
       default: {
        return null;
@@ -42,6 +45,9 @@ function Article (props) {
      }
     })
    }
+
+   </div>
+   <Footer />
   </div>
  );
 }
