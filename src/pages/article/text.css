@@ -73,25 +73,25 @@ body:has(.bg-image) {
 
 .square .article-block-text:nth-child(1) {
   color: aquamarine;
-  background-image: url("./1.png");
+  background-image: url("./P1.png");
   background-size: 75%;
 }
 
 .square .article-block-text:nth-child(2) {
   color: aquamarine;
-  background-image: url("./2.png");
+  background-image: url("./P2.png");
   background-size: 75%;
 }
 
 .square .article-block-text:nth-child(3) {
   color: aquamarine;
-  background-image: url("./3.png");
+  background-image: url("./P3.png");
   background-size: 75%;
 }
 
 .square .article-block-text:nth-child(4) {
   color: aquamarine;
-  background-image: url("./4.png");
+  background-image: url("./P4.png");
   background-size: 75%;
 }
 
