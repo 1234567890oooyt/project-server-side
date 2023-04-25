@@ -26,7 +26,6 @@ function Home() {
        <News/>
        <GalaryGrid/>
        <CallBackEmail/>
-     <Footer />
     </div>
 
 // <AdminPanel />

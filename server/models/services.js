@@ -1,13 +1,22 @@
 const { Schema, model, Types } = require('mongoose');
 
+const MainPointSchema = new Schema({
+ title: { type: String, required: true },
+ articleId: { type: Types.ObjectId, required: true },
+ imageFileName: { type: String }
+});
+
 const schema = new Schema({
  title: { type: String, required: true },
  image: {
   url: { type: String },
   name: { type: String }
  },
- mainPoints: { type: [String], default: [] },
- articleId: { type: Types.ObjectId, required: true }
+ mainPoints: {
+  type: { type: [MainPointSchema] },
+  default: []
+ },
+
 });
 
 const Service = new model('services', schema, 'services');

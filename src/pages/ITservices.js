@@ -20,12 +20,16 @@ function ItServicesComponent (props) {
             <div className="text-box">
                 <div className="title">{service.title}</div>
                 <div className="main-points">
-                    {service.mainPoints.map(point => (<div>{point}</div>))}
+                    {service.mainPoints.map(point => (<div>{point.title}</div>))}
                 </div>
                 <div className="show-more" style={{
                     backgroundColor: direction === 'right' ? '#5c5adb' : '#040321',
                     color: '#ffffff'
-                }}><Link to={`/it-services/articles/${service.articleId}`}>Дізнатися більшe</Link></div>
+                }}>
+                    <Link to={`/it-services/articles`} state={service}>
+                        Дізнатися більшe
+                    </Link>
+                </div>
             </div>
         </div>);
 
@@ -61,7 +65,6 @@ function ITservices () {
 
 
             </div>
-            <Footer />
         </div>
 
     );

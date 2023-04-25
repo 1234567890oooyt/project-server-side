@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -20,23 +20,19 @@ code {
   /* background-image: url(./image/bg.jpg); */
 }
 
-
 .header_ul {
   justify-content: space-between;
   display: flex;
 
   height: 3rem;
   /* width: 100%; */
-
 }
 
 .header_ul li {
-
   padding: 1rem;
   margin-right: 3%;
   list-style-type: none;
-  font-family: 'Courier New', Courier, monospace;
-
+  font-family: "Courier New", Courier, monospace;
 }
 
 .header_ul li a {
@@ -54,19 +50,17 @@ code {
   height: 5rem;
   list-style: none;
 
- z-index: 0;
+  z-index: 0;
   /* width: 100%; */
 }
 
 .servises_logo {
   color: #ffffff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: xx-large;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
-
-
 }
 
 #under_line {
@@ -76,9 +70,8 @@ code {
   width: 55px;
   border-top: 3px solid #ffffff;
 
-  padding-left: 10px
+  padding-left: 10px;
 }
-
 
 #logo {
   margin-top: -1rem;
@@ -86,7 +79,6 @@ code {
   /* width: 4rem;
   height: 4rem;
   color: aliceblue; */
-
 }
 
 #logo_dark {
@@ -102,15 +94,12 @@ header {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-
 }
 
 #sub_header {
   background-color: #1d1d36;
-z-index: 1;
-
+  z-index: 1;
 }
-
 
 #sub_header ul {
   justify-content: space-between;
@@ -118,16 +107,13 @@ z-index: 1;
   margin-bottom: 1.4rem;
   height: 0.8rem;
   /* width: 100%; */
-
 }
 
 #sub_header ul li {
-
   /* padding: 1rem; */
   margin-right: 1rem;
   list-style-type: none;
   color: #f3f3ff;
-
 }
 
 #sub_header ul li a {
@@ -136,7 +122,6 @@ z-index: 1;
   font-weight: 600;
   font-size: larger;
 }
-
 
 .form_landing {
   color: black;
@@ -149,9 +134,7 @@ z-index: 1;
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
-
 }
-
 
 .name_input {
   padding-left: 6px;
@@ -163,7 +146,7 @@ z-index: 1;
   border-radius: 160px;
   background: linear-gradient(45deg, #d3e0e2, rgb(126, 206, 252));
   font-size: large;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .phone_input {
@@ -176,7 +159,7 @@ z-index: 1;
   border-radius: 160px;
   background: linear-gradient(45deg, #d3e0e2, rgb(126, 206, 252));
   font-size: large;
-  font-weight: 500
+  font-weight: 500;
 }
 
 #submit_button {
@@ -189,21 +172,19 @@ z-index: 1;
   border-radius: 20px;
   background: linear-gradient(45deg, #d3e0e2, rgb(126, 206, 252));
   font-size: larger;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .form_landing div {
   color: rgb(126, 206, 252);
   font-size: 200%;
   margin: auto;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .footer {
-  margin-top: 10rem;
-  height: 4rem;
+  height: 288px;
   background: linear-gradient(60deg, #d3e0e2, rgb(126, 206, 252));
-  ;
   position: relative;
   bottom: 0;
   left: 0;
@@ -224,21 +205,6 @@ z-index: 1;
   margin-left: 10%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
   height: 18rem;
   background-color: #1d1d36;
@@ -246,7 +212,6 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-
 }
 
 footer hr {
@@ -268,15 +233,12 @@ footer p {
   display: flex;
   justify-content: space-around;
   padding: 1rem;
-
 }
 
 footer ul {
   color: #ffffff;
   list-style-type: none;
   font-size: 120%;
-
-
 }
 
 #contact_box_head {
@@ -291,12 +253,9 @@ footer ul {
   display: flex;
   flex-direction: row;
   padding: 0rem;
-
-
 }
 
 #contact_box ul {
-
   padding-left: 0rem;
   width: 2rem;
   height: 2rem;
@@ -307,7 +266,6 @@ footer ul {
 }
 
 #contact_box li {
-
   width: 11rem;
   height: 2rem;
   /* margin-top: 0.4rem; */
@@ -317,7 +275,6 @@ footer ul {
   font-size: small;
   margin: 0.1rem;
 }
-
 
 #contact_icons {
   display: flex;
@@ -359,14 +316,11 @@ footer ul {
   border-radius: 30%;
   margin-right: 8rem;
   padding-left: 0rem;
-
 }
-
 
 #icons li {
   background-color: blue;
   width: 2rem;
-
 }
 
 #notations_box {
@@ -400,27 +354,10 @@ footer ul {
   margin-bottom: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container {
   display: flex;
   flex-direction: row;
-
 }
-
 
 #list_header {
   font-size: 3.5rem;
@@ -451,33 +388,30 @@ footer ul {
   background-color: #1d1c1c;
 }
 
-
-
 .debug ul {
   color: #f3f3ff;
   margin-left: 8%;
   margin-right: auto;
   list-style: none;
 }
-#chess_debug{
- background-color: #5c5adb;
+#chess_debug {
+  background-color: #5c5adb;
 }
-#chess_debug_div{
-  background-color:  #5c5adb;
+#chess_debug_div {
+  background-color: #5c5adb;
 }
-#chess_debug_head{
+#chess_debug_head {
   color: #ffffff;
   background-color: #5c5adb;
 }
-#chess_debug_button{
+#chess_debug_button {
   background-color: #000000;
 }
 
 #description {
-
   font-size: 125%;
   color: #d3e0e2;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -512,11 +446,9 @@ footer ul {
 }
 
 .buttons div {
-
   width: 7rem;
   height: 5rem;
   text-align: center;
-
 }
 
 #admin_button {
@@ -567,19 +499,16 @@ footer ul {
   width: auto;
   margin-top: 4%;
   /* background-color: aqua; */
-
 }
 
 .button svg {
   width: 80%;
   height: 80%;
-  ;
 }
 
 svg {
   width: 10%;
   height: 10%;
-
 }
 
 #menu ul svg {
@@ -613,7 +542,6 @@ svg {
 }
 
 #header_input {
-
   align-items: center;
   background-color: #c4c3f3;
   display: flex;
@@ -639,8 +567,6 @@ svg {
   object-position: 0% 30%;
 
   position: absolute;
-
-
 }
 
 .landing_block div {
@@ -651,28 +577,23 @@ svg {
   z-index: 0;
   margin-left: 55%;
   margin-top: 7%;
-
 }
 
 .landing_bloc_2 {
-
   display: grid;
   grid-template-columns: 50% 50%;
   /* background-color: #6a0f0f; */
   width: auto;
   height: 50rem;
   margin: 3rem;
-
 }
-.servises_block{
-
+.servises_block {
   display: grid;
   grid-template-columns: 50% 50%;
   /* background-color: #6a0f0f; */
   width: auto;
   height: 50rem;
   margin: 3rem;
-
 }
 .servises_block div {
   background-color: #e8e6e6;
@@ -686,22 +607,17 @@ svg {
   height: 25rem;
 }
 
-
 #landing_building_2 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   object-position: 0% 30%;
-
-
-
 }
 
 .landing_bloc_2_element {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-
 }
 
 .landing_bloc_2_head {
@@ -720,7 +636,7 @@ svg {
 .servises_block_text {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
   font-weight: 500;
   color: #000000;
   list-style: none;
@@ -734,7 +650,6 @@ svg {
   font-weight: 500;
 }
 
-
 #landing_bloc_2_button {
   display: flex;
   justify-content: center;
@@ -745,7 +660,6 @@ svg {
   height: auto;
   background-color: #5c5adb;
   padding: 0.3rem;
-
 }
 #servises_block_button {
   display: flex;
@@ -757,9 +671,8 @@ svg {
   height: auto;
   background-color: #5c5adb;
   padding: 0.3rem;
-
 }
-#servises_block_button_debug{
+#servises_block_button_debug {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
@@ -773,10 +686,11 @@ svg {
 
 .news_container {
   /* background-color: #c47878; */
-  height: 20rem;
+  /* height: 20rem; */
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
+  padding: 2rem 0;
 }
 
 #news_head {
@@ -822,12 +736,10 @@ svg {
   margin-left: 1rem;
   font-size: large;
   color: white;
-
 }
 
 #description_container hr {
   width: 11rem;
-
 }
 
 /* 
@@ -855,7 +767,6 @@ svg {
 
 .element-left {
   margin-right: auto;
-
 }
 
 .element-right {
@@ -893,19 +804,16 @@ svg {
 }
 
 .galary_grid_container {
-
-  margin-top: 1rem;
-  height: 35rem;
+  /* margin-top: 1rem; */
+  /* height: 35rem; */
   background-color: #5c5adb;
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  padding: 2rem 0;
 }
 
 #galary_grid_head {
-  margin-top: 35rem;
-
   color: white;
   font-size: 3rem;
   text-align: center;
@@ -936,36 +844,31 @@ svg {
 }
 
 .email_container {
-  margin-top: 40rem;
-
   display: flex;
   flex-direction: column;
+  height: 16rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 #email_head {
-  margin: auto;
   font-size: 2.5rem;
   font-weight: 400;
 }
 
 #email_description {
-  margin: auto;
   font-size: 1.2rem;
   font-weight: 400;
   font-weight: 600;
-
 }
 
 #mark {
-  margin: auto;
-  margin-left: 31%;
   font-size: small;
 }
 
 #input_long_container {
-  margin-left: 31%;
   display: flex;
-
 }
 
 #email_input {
@@ -974,7 +877,6 @@ svg {
   background-color: #5c5adb;
   height: 1.75rem;
   border: 0px;
-
 }
 
 #email_apply {
