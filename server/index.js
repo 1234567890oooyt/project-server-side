@@ -5,8 +5,15 @@ const cors = require('cors');
 const { setupDb } = require('./setup/mongoose');
 const path = require('path');
 const API = require('./api');
-
+const nocache = require("nocache");
 const app = express();
+
+
+
+
+app.use(nocache());
+
+
 
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
