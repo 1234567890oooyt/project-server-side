@@ -1,5 +1,5 @@
 body:has(.bg-image) {
-  background-image: url('hrfoto.png');
+  background-image: url('../../../public/images/hrfoto.png');
   background-attachment: fixed;
   /* Добавьте другие свойства для фона */
 }
