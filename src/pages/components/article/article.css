@@ -2,7 +2,7 @@
   width: 100%;
   box-sizing: border-box;
   min-height: calc(100vh - 288px - 130px);
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 
 .article-title {
