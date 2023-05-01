@@ -1,5 +1,5 @@
 body:has(.bg-image) {
-  background-image: url('url("https://project-theta-six.vercel.app/images/hrfoto.png")');
+  background-image: url('url("https://project-theta-six.vercel.app/public/images/hrfoto.png")');
   background-attachment: fixed;
   /* Добавьте другие свойства для фона */
 }
