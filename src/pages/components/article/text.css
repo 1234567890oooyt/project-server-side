@@ -1,3 +1,8 @@
 .article_block-text {
   margin: 0.5rem 0;
 }
+body:has(.sub-menu_text-block) {
+  background-image: url('hrfoto.png');
+  background-attachment: fixed;
+  /* Добавьте другие свойства для фона */
+}

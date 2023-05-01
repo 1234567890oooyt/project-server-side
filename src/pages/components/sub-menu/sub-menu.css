@@ -1,5 +1,5 @@
 .sub-menu_grid {
-  width: 100%;
+  width: 70%;
   box-sizing: border-box;
   padding: 2rem 1rem;
   min-height: calc(100vh - 288px - 130px);
@@ -8,14 +8,61 @@
   grid-auto-rows: 140px;
   row-gap: 40px;
   column-gap: 40px;
+  /* background-color: rgb(28, 116, 116); */
+  margin: auto;
 }
+
 .sub-menu_elem {
   display: flex;
+  background-color: azure;
+  justify-content:space-between ;
+ 
 }
+
 .sub-menu_text-block {
-  width: 40%;
+  width: 30%;
   height: 100%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+ margin-right: 0%;
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(223, 201, 201); */
+  /* text-align: center; */
+
+  height: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
 }
+
+.sub-menu_text-block a {
+  background-color: #5c5adb;
+  /* Цвет фона кнопки */
+  border: none;
+  /* Убираем границы кнопки */
+  color: white;
+  /* Цвет текста на кнопке */
+  text-align: center;
+  /* Выравнивание текста по центру */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 130px;
+  /* Ширина кнопки */
+  height: 40px;
+  /* Высота кнопки */
+  border-radius: 20px;
+  /* Радиус для каждого угла */
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, .25), 0 1px 1px rgba(0, 0, 0, .15);
+  /* Эффект заострения углов */
+  margin-left: 0%;
+  margin-right: 50%;
+  line-height: 40px;
+}
+
 .sub-menu_image {
   width: 60%;
   height: 100%;
