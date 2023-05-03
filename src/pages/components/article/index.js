@@ -63,9 +63,20 @@ function Article(props) {
           </div>
           <div className="black"></div>
           <div className="article_block_3">
-            <div className="info_element">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, possimus.</div>
-            <div className="info_element">Tempore sapiente totam possimus. Culpa tempora accusamus maxime laborum qui?</div>
-            <div className="info_element">Tenetur repellat ullam mollitia architecto eum? Aspernatur soluta ut incidunt?</div>
+            <div className="info_element">Анастасія Стеценко
+              Employee Advocacy Lead у DataArt, консультантка з особистого бренду та публічних виступів</div>
+            <div className="info_element">Репутація будь-якого спеціаліста завжди була важливою для просування кар’єрною драбиною, але сьогодні особистий бренд — це те, що може суттєво прискорити ваш професійний успіх. </div>
+            <div className="info_element">Кому й навіщо потрібний особистий бренд
+             Особистий бренд формує бажаний образ для аудиторії, дає можливість просунути якусь ідею і здебільшого монетизувати її.</div>
+          </div>
+          <div className="article_block_4">
+            <h1>4 поради для зміцнення особистого бренду</h1>
+          <div class="grid-container">
+  <div class="item item-1">Контент 1</div>
+  <div class="item item-2">Контент 2</div>
+  <div class="item item-3">Контент 3</div>
+  <div class="item item-4">Контент 4</div>
+</div>
           </div>
         </div>
 

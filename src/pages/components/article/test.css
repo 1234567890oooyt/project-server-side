@@ -2,17 +2,19 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 50px;
-    width: 40%;
+    font-size: 70px;
+    width: 55%;
+    height: 500px;
+    letter-spacing: 30px;
 }
 
 .article_more_info {
-    margin-left: 30%;
 
+    margin-left: 20%;
     background-color: #5c59da;
-    border-radius: 20px;
-    width: 40%;
-    height: 40px;
+    border-radius: 90px;
+    width: 60%;
+    height: 80px;
     border: none;
     color: #fff;
     font-size: 20px;
@@ -24,7 +26,7 @@
     margin-left: 30%;
 
     background-color: #5c59da;
-    border-radius: 20px;
+    border-radius: 90px;
     width: 20%;
     height: 40px;
     border: none;
@@ -35,19 +37,24 @@
 }
 
 .article_block_1 {
-    background-color: red;
+    background-color: #5c5adb;
     padding: 3%;
     margin-top: 100px;
+    font-size: 30px;
+    color: #fff;
 }
 
 .article_block_1 h2 {
     text-align: center;
     margin-top: 0%;
+    font-size: 40px;
+    color: black;
 }
 
 .article_block_2 {
     background-color: rgb(104, 104, 155);
     height: 600px;
+
 
 
 
@@ -92,12 +99,80 @@
 .article_block_3 div:nth-child(odd) {
     background-color: #2b1880;
 }
-.black{
+
+.black {
     background-color: #1d1d36;
     height: 20px;
 }
+
 .info_element {
     padding: 5%;
     text-align: center;
     height: 250px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.article_block_4 {
+    background-color: #1d1d36;
+    height: 700px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.article_block_4 h1 {
+    font-size: 80px;
+    width: 1200px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#fff ;
+
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.item-1 {
+    background-color: #5c5adb;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.item-2 {
+    background-color: #5c5adb;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.item-3 {
+    background-color: #3d3c92;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.item-4 {
+    background-color: #3d3c92;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
 }
