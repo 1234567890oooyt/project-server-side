@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { backEndAPI } from "../../../services/backend";
 import Loader from "../loader";
+import CallForm from "../../../main/CallForm";
 import Text from "./text";
 import './article.css';
 import './test.css'
@@ -48,6 +49,10 @@ function Article(props) {
         } */}
 
         <div>
+
+
+          {/* 
+          
           <h1 className="article_h">Створи свій особистий бренд</h1>
           <button className="article_more_info ">Дізнатися більше</button>
           <div className="article_block_1"><h2 >Що таке особистий бренд</h2>
@@ -77,10 +82,38 @@ function Article(props) {
   <div class="item item-3">Контент 3</div>
   <div class="item item-4">Контент 4</div>
 </div>
+          </div> */}
+
+
+          <h1 className="v2_article_h">Кар'єрний коучинг</h1>
+          <div class="v2_grid-container">
+            <div class="box"><div className="box_num">1</div>
+            <div className="box_text">Lorem, ipsum dolor.</div>
+            <div className="box_image"></div>
+            <div className="box_more_info">Більше</div>
+              </div>
+            <div class="box"><div className="box_num">2</div>
+            <div className="box_text">Lorem, ipsum dolor.</div>
+            <div className="box_image"></div>
+            <div className="box_more_info">Більше</div>
+            </div>
+            
+            <div class="box"><div className="box_num">3</div>
+            <div className="box_text">Lorem, ipsum dolor.</div>
+            <div className="box_image"></div>
+            <div className="box_more_info">Більше</div>
+            </div>
           </div>
+
+
+          <CallForm />
+          
+
+
+
         </div>
 
-
+       
 
 
       </div>
