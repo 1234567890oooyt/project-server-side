@@ -29,6 +29,19 @@ class BackEndAPI {
       );
       return data;
    }
+
+   /**
+    * 
+    * @param {Object} data 
+    * @param {string} data.email
+    * @param {string} data.name
+    * @param {Date} data.requestedDate
+    * @param {string} data.questions
+    * @param {string} data.phoneNumber
+    */
+   async createRequest (data) {
+      await axios.post(`${this.baseUrl}/requests`, data);
+   }
 }
 
 export const backEndAPI = new BackEndAPI();

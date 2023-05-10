@@ -16,7 +16,7 @@ function ItServicesComponent (props) {
             flexDirection: direction === 'left' ? 'row' : 'row-reverse',
             backgroundColor: direction === 'left' ? '#5c5adb' : '#e8e6e6'
         }}>
-            <div className='image' style={{ backgroundImage: `url(../${service.image.name})` }}></div>
+            <div className='image' style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/${service.image.name})` }}></div>
             <div className="text-box">
                 <div className="title">{service.title}</div>
                 <div className="main-points">

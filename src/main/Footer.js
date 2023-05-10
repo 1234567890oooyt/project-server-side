@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo_dark from "../full_logo_dark.png";
+import logo_dark from "../image/full_logo_dark.png";
 import { backEndAPI } from '../services/backend';
 const Footer = () => {
   const [contacts, setContacts] = useState({

@@ -556,7 +556,7 @@ svg {
 .landing_block {
   width: auto;
   height: 47.5rem;
-  background-image: url(./landing_building.webp);
+  background-image: url(./image/landing_building.webp);
   background-size: cover;
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../full_logo.png"
-function Header() {
+import logo from "../image/full_logo.png";
+function Header () {
     return (<header>
 
         <ul className="header_ul">
@@ -22,7 +22,7 @@ function Header() {
             <li>Співпраця</li></ul></div>
     </header>
 
-    )
+    );
 }
 
-export default Header
+export default Header;

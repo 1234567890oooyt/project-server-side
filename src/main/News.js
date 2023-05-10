@@ -1,5 +1,4 @@
 import React from "react";
-// import landing_building from "../landing_building.webp"
 const News = () => (
 
     <div className="news_container">

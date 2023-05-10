@@ -8,13 +8,7 @@ const API = require('./api');
 const nocache = require("nocache");
 const app = express();
 
-
-
-
 app.use(nocache());
-
-
-
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 app.use(cors());

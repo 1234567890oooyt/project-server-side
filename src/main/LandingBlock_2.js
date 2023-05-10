@@ -1,6 +1,6 @@
 import React from "react";
-import landing_building_2_1 from "../landing_2_1.webp"
-import landing_building_2_2 from "../landing_2_2.webp"
+import landing_building_2_1 from "../image/landing_2_1.webp"
+import landing_building_2_2 from "../image/landing_2_2.webp"
 const LandingBlock_2 = () => (
 
    <div class="landing_bloc_2">

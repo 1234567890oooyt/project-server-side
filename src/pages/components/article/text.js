@@ -5,14 +5,12 @@ import './text.css';
  * @param {string} props.value 
  * @returns 
  */
-function Text(props) {
+function Text (props) {
 
     return (
-        <div className="article-block-text bg-image">
-          
-            <div className="container-it-text">
-                <div className='article_block-text'>{props.value}</div>
-            </div>
+        <div className="article_block_1">
+            {props.title && <h2 >{props.title}</h2>}
+            <p>{props.value}</p>
         </div>
     );
 }

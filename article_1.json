@@ -1,0 +1,48 @@
+{
+ "_id": {
+  "$oid": "6442bc6757f2e5c058fa4a71"
+ },
+ "title": "HR - консалтинг",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Що таке особистий бренд",
+   "value": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quia non repellat consequuntur, sequi temporibus ipsam at pariatur quas aliquam omnis est error sit! Commodi et consequuntur exercitationem eveniet voluptatem nobis officia provident rem quibusdam sapiente fugit labore, aut ut excepturi atque quia, a nam! Molestiae quibusdam autem blanditiis quia nemo quisquam possimus corporis at, facere similique nam fuga rerum iste fugiat qui temporibus, repellat nisi voluptate quo. Dolore quaerat quidem, facere nisi nihil ut quasi error quibusdam repellendus ad consectetur, alias tempore nemo eaque molestiae perspiciatis voluptatum quisquam? Molestiae mollitia earum, deleniti suscipit libero atque ratione cupiditate minus officia harum, dolores et delectus numquam consequatur placeat maxime, doloribus aspernatur nostrum! At repellendus voluptas quos autem, hic alias voluptates minima voluptatem voluptatibus veritatis similique! Ipsam veniam eaque voluptatibus earum! Alias earum sed repudiandae amet autem, minima, doloremque, culpa laborum porro dolore saepe voluptatum! Vel provident ad laborum deleniti sunt esse reiciendis quam harum debitis labore suscipit quas hic ipsum beatae iste iure commodi, dicta dolore voluptates nostrum consequuntur laudantium laboriosam. Optio sapiente vero quis illo, animi soluta doloremque porro perferendis qui. Fuga id labore sit quas, odio nemo ex dolores magni vel aut repellat voluptas expedita sequi doloremque quia eveniet."
+  },
+  {
+   "type": "text",
+   "value": "Voluptate sunt aliqua dolore culpa pariatur do eiusmod minim nostrud consequat. Nulla Lorem qui aliqua non aliquip in aliqua mollit non sint amet enim ipsum velit. Anim et quis occaecat enim aute velit duis nostrud irure veniam commodo laborum et ipsum.",
+   "title": "Що таке особистий бренд 2"
+  },
+  {
+   "type": "textAndImage",
+   "value": "Fugiat consequat est cillum laborum Lorem amet quis tempor Lorem labore excepteur minim veniam. Occaecat mollit dolor proident excepteur. Consequat do Lorem amet ut aliquip sit ad cupidatat ea do dolore Lorem exercitation. Excepteur pariatur ipsum ex adipisicing culpa. Nostrud esse reprehenderit cupidatat esse quis Lorem aliqua aliqua aliquip minim. Proident duis veniam excepteur dolor commodo.Magna pariatur velit nisi velit sit aute quis pariatur et. Ipsum eiusmod consequat id enim ut exercitation dolore incididunt ullamco ex veniam id. Dolore veniam nostrud consequat amet eiusmod voluptate irure veniam nostrud. Eiusmod anim non reprehenderit irure est eiusmod cupidatat incididunt nulla eu reprehenderit eu officia.",
+   "title": "Що таке особистий бренд"
+  },
+  {
+   "type": "text3Columns",
+   "value": [
+    "Анастасія Стеценко Employee Advocacy Lead у DataArt, консультантка з особистого бренду та публічних виступів",
+    "Репутація будь-якого спеціаліста завжди була важливою для просування кар’єрною драбиною, але сьогодні особистий бренд — це те, що може суттєво прискорити ваш професійний успіх.",
+    "Кому й навіщо потрібний особистий бренд     Особистий бренд формує бажаний образ для аудиторії, дає можливість просунути якусь ідею і здебільшого монетизувати її."
+   ]
+  },
+  {
+   "type": "table2Columns",
+   "value": [
+    [
+     "Контент 1",
+     "Контент 2"
+    ],
+    [
+     "Контент 3",
+     "Контент 4"
+    ],
+    [
+     "Контент 5",
+     "Контент 6"
+    ]
+   ]
+  }
+ ]
+}
