@@ -19,7 +19,7 @@ function CallForm () {
         });
     };
     return (
-        <div className="callform" style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/comp.png)`,  }}>
+        <div className="callform"  style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/comp.png)`,  }}>
             <div className="callform_1">
                 1
 
@@ -33,8 +33,8 @@ function CallForm () {
                             <input ref={emailRef} className="form_email input_style" type="email" placeholder="Ел.пошта" />
                         </li>
                         <li className="call_form_line">
-                            <input className="form_code_number input_style" type="text" placeholder="UA +380" />
-                            <input className="form_number input_style" type="text" placeholder="Телефон" />
+                            <input ref={phoneNumberCodeRef}className="form_code_number input_style" type="text" placeholder="UA +380" />
+                            <input ref={phoneNumberRef}className="form_number input_style" type="text" placeholder="Телефон" />
                         </li>
                         <li className="call_form_line">
                             <input ref={requestedDateRef} className="form_date input_style" type="date" placeholder="Дата і час консультації ( за бажанням )" />

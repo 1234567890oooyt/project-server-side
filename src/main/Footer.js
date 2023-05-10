@@ -59,11 +59,11 @@ const Footer = () => {
                 <li>Linkedin</li>
               </ul>
               <ul id="icons">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+              <li  style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/y.png)`,  }}></li>
+              <li  style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/i.png)`,  }}></li>
+              <li  style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/f.png)`,  }}></li>
+              <li  style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/t.png)`,  }}></li>
+              <li  style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/l.png)`,  }}></li>
               </ul>
             </div>
           </ul>

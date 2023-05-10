@@ -34,7 +34,7 @@ function Article (props) {
   }
   return (
     <div className="article" >
-      <div>
+      <div style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/file.gif)`, backgroundSize: 'cover', }}>
         <h1 className="article_h">{title}</h1>
         <button className="article_more_info ">Дізнатися більше</button>
       </div>
@@ -51,7 +51,7 @@ function Article (props) {
               }
               case 'textAndImage': {
                 return <>
-                  <TextAndImage title={block.title} value={block.value} />
+                  <TextAndImage title={block.title} value={block.value} imageFileName={block.imageFileName} />
                   <div className="black"></div>
                 </>;
               }

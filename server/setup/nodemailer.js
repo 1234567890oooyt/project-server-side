@@ -6,7 +6,10 @@ console.log(process.env.NODEMAILER_PASSWORD);
 const transporter = nodemailer.createTransport({
  host: "smtp.gmail.com",
  port: 465,
- secure: true,
+ tls: {
+    rejectUnauthorized: true,
+    minVersion: "TLSv1.2"
+},
  auth: {
   user: process.env.NODEMAILER_EMAIL,
   pass: process.env.NODEMAILER_PASSWORD,

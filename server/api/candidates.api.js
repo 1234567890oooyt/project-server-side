@@ -32,13 +32,13 @@ router.post('/requests', async (req, res) => {
   });
 
   await newCandidate.save();
-  await sendEmail({
-   candidateEmail: email,
-   requestedDate,
-   candidateName: name || phoneNumber || email,
-   question: questions,
-   countOfActiveRequests: 1,
-  });
+//   await sendEmail({
+//    candidateEmail: email,
+//    requestedDate,
+//    candidateName: name || phoneNumber || email,
+//    question: questions,
+//    countOfActiveRequests: 1,
+//   });
   return res.status(200).send({ message: 'New candidate was created' });
  }
 
@@ -47,13 +47,13 @@ router.post('/requests', async (req, res) => {
   { $push: { requests: { requestedDate, questions } } },
   { new: true }
  );
- await sendEmail({
-  candidateEmail: email,
-  requestedDate,
-  candidateName: name || phoneNumber || email,
-  question: questions,
-  countOfActiveRequests: updatedDoc.requests.length,
- });
+//  await sendEmail({
+//   candidateEmail: email,
+//   requestedDate,
+//   candidateName: name || phoneNumber || email,
+//   question: questions,
+//   countOfActiveRequests: updatedDoc.requests.length,
+//  });
  return res.status(200).send({ message: 'Save request in existing candidate' });
 });
 

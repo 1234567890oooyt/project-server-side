@@ -319,8 +319,10 @@ footer ul {
 }
 
 #icons li {
-  background-color: blue;
+height: 1.05rem;
   width: 2rem;
+  background-size:contain ;
+  margin-bottom: 1rem;
 }
 
 #notations_box {
