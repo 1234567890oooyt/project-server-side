@@ -11,7 +11,7 @@ function SubMenu () {
   return redirect('/it-services');
  }
 
- return (<div>
+ return (<div style={{ backgroundImage: `url(${process.env.REACT_APP_BASE_URL}/images/hrfoto.png)`, backgroundSize: 'cover', }}>
         <HeaderServices />
   <div className="sub-menu_grid">
    {mainPoints.map(el => (<div className="sub-menu_elem">

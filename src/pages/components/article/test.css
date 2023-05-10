@@ -220,12 +220,11 @@
 .callform {
   display: flex;
   flex-direction: row;
-  background-color: rgb(53, 117, 173);
   height: 400px;
 }
 
 .callform_1 {
-  background-color: brown;
+
   width: 50%;
 }
 
