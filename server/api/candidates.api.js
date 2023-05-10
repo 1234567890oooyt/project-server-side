@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const { Candidates } = require('../models/candidates');
-const { sendEmail } = require('../setup/nodemailer');
+
 
 const router = Router();
 
